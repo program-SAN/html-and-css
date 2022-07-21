@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0px 26px;
+}
+.logo img{
+    width: 70px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.logo{
+    width:20%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+    top: 0;
+    position: sticky;
+
+}
+.navlist{
+    width:50%;
+
+    display:flex;
+    align-items: center;
+}
+
+.navlist li{
+list-style: none;
+padding: 20px 30px;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: black;
+    }
+
+.navlist li a:hover{
+color: red;
+}
+.rightnav{
+  
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+ #search{
+    padding: 5px;
+    font-size: 17px;
+    border:3px solid gray;
+    border-radius: 30px;
+ }
+ .background{
+    background:rgba(228, 93, 174, 0.7) ;
+    background-size: cover;
+    background-blend-mode:darken;
+ }
+ .firstsection{
+    height: 100vh;
+    background-color: #663399;
+ }
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 70%;
+    margin: auto;
+    padding: 3%;
+}
+.fhalf{
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.shalf{
+    width: 30%;
+}
+.shalf img{
+    width: 70%;
+    border-radius: 70px;
+    border:4px;
+    display: block;
+    margin: auto;
+}
+ .text-big{
+font-size: 50px;
+ }
+ .text-small{
+    font-size: 15px;
+}
+.btn{
+    padding:8px 20px;
+    margin:7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding:6px 10px;
+    vertical-align:middle;
+     
+}
+.secRight{
+height: 500px;
+display: flex;
+align-items: center;
+justify-content:center;
+max-width:80%;
+margin: auto;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.secleft{
+flex-direction:row-reverse;
+font-family: 'Ubuntu', sans-serif;
+padding: 315px 90px;
+}
+
+.thumbnail{
+    width: 331px;
+    border: 3px solid white;
+    
+}
+.thumbnail-1{
+    
+    width: 250px;
+    border: 3px solid white;
+     
+}
+.sectionsubtag{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact{
+    background-color: cornsilk;
+    height:  135vh;;
+}
+.textcenter{
+   text-align: center;
+   font-style: oblique;
+}
+.form{
+    max-width: 0px;
+    margin: 27px 384px;
+}
+.form-input{
+    margin: 20px 14px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 20px;
+    width: 362px;
+    height: 23px;
+}
+.btn-c{
+     color: rgb(2, 18, 50);
+     border: 3px solid black;
+     margin: 4px 17px;
+}
+
+.textfooter{
+font-style: oblique;
+text-align: center;
+justify-content: center;
+display: flex;
+margin: auto; 
+margin: 0px 48px;
+color: beige;
+padding: 16px 3px;
+}
