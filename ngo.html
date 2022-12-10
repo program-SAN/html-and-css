@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >rich </title>
+</head>
+<body>
+    <section class="donate">
+        <h1>calculating the interest amount</h1>
+        <fieldset>
+            <legend>calculation</legend>
+            <label for="amount">AMOUNT OF MONEY TO DEPOSITE</label>
+            <input type="number" id="amount">
+            <br>
+            <label for="year">years to deposite (between 1 and 10)</label>
+            <input type="number" id="timetook" min="1" max="10">
+            
+            <br>
+             <button id="sub">submit</button>
+        </fieldset>
+       </section>
+       <script>
+         const btn=document.getElementById("sub");
+         btn.addEventListener("click",()=>{
+         const amt=document.getElementById("amount").value;
+         const year=document.getElementById("timetook").value;
+         var rate;
+         if(year<5){
+            rate=amt*year*1.5;
+            console.log(rate);
+         };
+        if(year>=5 && year<=10){
+            rate=amt*year*2.5;
+            console.log(rate);
+         };
+        });
+      </script>
+</body>
+</html>

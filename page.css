@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    margin: 100px 100px;
+}
+.page{
+     background-color: rgb(27, 156, 225);
+     color: azure;
+     border: 10px solid wheat;
+     border-radius: 10px;
+}
+img{
+    width: 100px;
+}
+th{
+    padding: 10px;
+}
+
+@media only screen and (max-width:600px){
+    .editor th{
+        display: flex;
+        font-style: italic;
+        font-size: x-small;
+    }
+}
